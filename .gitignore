@@ -1,2 +1,9 @@
-.vscode/*
-.idea/*
+# Ruby Gems
+*.gem
+
+# Design Files
+*.psd
+*.ai
+
+# IntelliJ
+.idea
