@@ -5,6 +5,8 @@ const educationData = [
     time: "2024 – Present",
     details: "Advanced learning in machine learning, statistical analysis, data engineering, and business analytics tailored for executive decision-making roles."
   },
+
+
   {
     degree: "Executive MBA in Business Data Analytics",
     institution: "Ottawa University",
