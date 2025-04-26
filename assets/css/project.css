@@ -856,3 +856,85 @@ SVG ANIMATIONS PROJECT PAGE
   animation-duration: 3.3s;
   transform-origin: 785.132px 295.833px;
 }
+
+/* Project Card Styling */
+.projectcards .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect on Card */
+.projectcards .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Image Styling */
+.projectcards .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Card Title */
+.projectcards .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 0.5rem;
+}
+
+/* Card Text */
+.projectcards .card-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+/* Tools and Impact Info */
+.projectcards p {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+/* Buttons Styling */
+.projectcards .btn-primary, .projectcards .btn-outline-secondary {
+  transition: all 0.3s ease;
+  font-size: 0.85rem;
+  border-radius: 5px;
+}
+
+/* Hover Glow on "View Project" Button */
+.projectcards .btn-primary:hover {
+  background-color: #5a00c4;
+  border-color: #5a00c4;
+  box-shadow: 0px 4px 15px rgba(90, 0, 196, 0.4);
+}
+
+/* Hover Effect on "View Code" Button */
+.projectcards .btn-outline-secondary:hover {
+  background-color: #343a40;
+  color: #fff;
+  border-color: #343a40;
+}
+
+/* Fade-in from Bottom Animation */
+.fade-in-bottom {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeInBottom 1s ease forwards;
+}
+
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
